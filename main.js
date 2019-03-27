@@ -1,7 +1,6 @@
 'use strict';
 
 //NEWS ITEMS - EVENTUALLY, THESE SHOULD GO TO A DATABASE
-//TEST COMMENT
 var news = [
     [{
         id: 'ingenic-third-meeting',
