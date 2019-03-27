@@ -9,19 +9,19 @@
 }
 
 /*BUTTONS IN NAVIGATION*/
-.buttonHover {
+
+#customLink {
     background-color: white;
-    /*color: black;*/
+    color: black;
     border: 3px solid #411B46;
     -webkit-appearance: none;
 }
-.buttonHover:hover {
+#customLink:hover {
     background-color: #411B46;
     color: white;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
-
 
 /*LINES*/
 .rectangle {
@@ -240,6 +240,7 @@ a, a:hover {
  Horizontal menu
 */
 @media (min-width: 1300px) {
+
     .menu-toggle,
     .main-menu .menu-close {
         display: none;
@@ -350,7 +351,7 @@ a, a:hover {
     display: block;
 }
 
-
+/*
 .nav-item{
     margin-left: 5%;
     margin-right:5%;
@@ -369,10 +370,16 @@ a, a:hover {
     color: gray;
 }
 
-
+*/
 
 
 @media screen and (max-width: 1000px) {
+
+    /* Remove the borders from the menu */
+    #customLink {
+        border: none;
+    }
+
     .nav-item .nav-link {
         background-color: white;
         color: black;
